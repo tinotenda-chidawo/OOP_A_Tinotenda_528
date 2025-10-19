@@ -1,37 +1,20 @@
 Movie Ticket System
 
-This is a simple Java program that shows how movie tickets can be created and displayed using classes. It calculates the total price for all tickets and prints a clean receipt.
+This update adds a discount feature and improves the program using encapsulation, constructors, and getters/setters.
+It also demonstrates how to use Git branches to add new features safely before merging them into the main project.
 
-The project has three files:
+Features Added:
 
-MovieTicket.java – holds details about each movie ticket like title, seat, and price
+Discount calculation (e.g., 10% off total)
 
-TicketOperations.java – handles calculations and printing the receipt
+Updated classes with proper OOP structure
 
-Main.java – runs the program and shows the final result
+Demonstration of version control using Git
 
-Example Output
-===== MOVIE TICKET RECEIPT =====
-Movie: Avengers: Endgame
-Seat: A1
-Price: $10.50
----------------------------
-Movie: Inception
-Seat: B3
-Price: $9.00
----------------------------
-Total: $19.50
-
-How to Run
-
-Put all three .java files in the same folder
-
-Open a terminal and type:
+Run:
 
 javac *.java
 java Main
 
-
-That’s it. The program will print the receipt with movie details and total cost.
 
 Created by Tinotenda David Chidawo
