@@ -19,6 +19,18 @@ public class TicketOperations {
     }
 
     /**
+     * Calculates the total cost after applying a discount.
+     *
+     * @param tickets  an array of MovieTicket objects
+     * @param discount the discount percentage (e.g., 0.1 for 10%)
+     * @return the total cost after discount
+     */
+    public double calculateTotalWithDiscount(MovieTicket[] tickets, double discount) {
+        double total = calculateTotal(tickets);
+        return total - (total * discount);
+    }
+
+    /**
      * Prints the details of all tickets and the total cost.
      *
      * @param tickets an array of MovieTicket objects

@@ -1,6 +1,5 @@
 /**
- * The Main class serves as the entry point for the Movie Ticket application.
- * It creates sample tickets, performs operations, and displays the results.
+ * The Main class demonstrates the Movie Ticket System with discount feature.
  */
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +10,8 @@ public class Main {
 
         TicketOperations operations = new TicketOperations();
         operations.printReceipt(tickets);
+
+        System.out.println("\nApplying 10% discount...");
+        System.out.printf("Total after discount: $%.2f%n", operations.calculateTotalWithDiscount(tickets, 0.10));
     }
 }
