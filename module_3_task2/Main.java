@@ -1,7 +1,3 @@
-/**
- * The Main class serves as the entry point for the Movie Ticket application.
- * It creates sample tickets, performs operations, and displays the results.
- */
 public class Main {
     public static void main(String[] args) {
         MovieTicket[] tickets = {
