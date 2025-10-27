@@ -5,6 +5,7 @@ public class Main {
             new MovieTicket("Inception", "B3", 9.0)
         };
 
+
         TicketOperations operations = new TicketOperations();
         operations.printReceipt(tickets);
     }
